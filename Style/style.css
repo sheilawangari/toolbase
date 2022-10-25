@@ -24,14 +24,15 @@ body {
     display: inline-block;
     text-align: center;
     margin: 1em; 
-    color: white;
+    color: goldenrod;
     transform: translateY(-5em);
 }
+
 .description h2{
     margin-top: 5rem;
-}
+} 
 
-.h4{
+.h4 {
     font-weight: normal;
 }
 
