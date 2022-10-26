@@ -1,85 +1,38 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    background-color: black;
+    color: lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 } 
 
-.main {
-    width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(Images/darkimage1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 109vh;
-} 
-
-.navbar {
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-} 
-
-
-.icon {
-    width: 200px;
-    float: left;
-    height: 70px;
+nav {
+    display: flex;
 } 
 
 .logo {
+    font-size: 40px;
     color: goldenrod;
-    font-size: 35px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    margin-right: 4rem;
+    font-weight: 600;
+    margin-right: 55%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 } 
 
-.menu {
-    width: 400px;
-    float: left;
-    height: 70px;
-} 
-
-.menu ul {
-    float: right;
-}
-
-ul {
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-
-ul li {
+#menu {
+    display: inline-flex;
     list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
-    text-align: right;
+    padding-top: 15px;
 } 
 
-ul li a {
+li {
+    margin-left: 50px;
+    font-size: 17px;
+} 
+
+a:hover {
+    color: rgb(241, 81, 241);
+} 
+
+a {
     text-decoration: none;
-    color: rgb(134, 18, 134);
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.01s ease-in-out;
-} 
-
-ul li a:hover {
-    color: white;
-} 
-
-.content1 h4 {
-    float: left;
-    line-height: 30px;
-    font-weight: normal;
-    font-size: 18px;
-    margin-top: 3rem;
-    color: rgb(196, 180, 180);
-} 
-
-.content2 {
-    float: left;
+    color:gold;
 }
