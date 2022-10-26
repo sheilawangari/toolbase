@@ -60,7 +60,7 @@ a {
     padding-top: 40px;
 } 
 
-#theme:hover {
+#theme:hover, #button1:hover {
     background-color: rgb(231, 231, 241);
     color: black;
 } 
@@ -83,7 +83,3 @@ a {
     transition: opacity 0.15;
 } 
 
-#button1:hover {
-    background-color: rgb(231, 231, 241);
-    color: black;   
-}
