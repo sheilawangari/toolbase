@@ -40,6 +40,10 @@
     height: 70px;
 } 
 
+.menu ul {
+    float: right;
+}
+
 ul {
     float: left;
     display: flex;
@@ -74,4 +78,8 @@ ul li a:hover {
     font-size: 18px;
     margin-top: 3rem;
     color: rgb(196, 180, 180);
+} 
+
+.content2 {
+    float: left;
 }

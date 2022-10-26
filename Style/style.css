@@ -5,6 +5,39 @@ body {
     overflow-x: hidden;
 } 
 
+nav {
+    display: flex;
+} 
+
+.logo {
+    font-size: 40px;
+    color: goldenrod;
+    font-weight: 600;
+    margin-right: 55%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+} 
+
+li {
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+#menu {
+    display: inline-flex;
+    list-style: none;
+    padding-top: 15px;
+} 
+
+a:hover {
+    color: rgb(241, 81, 241);
+} 
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
 .leaderboard {
     max-width: 55em;
     margin-right: auto;
