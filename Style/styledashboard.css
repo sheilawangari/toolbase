@@ -158,8 +158,9 @@ nav .fa-solid {
     padding: 10px;
 } 
 
-.main-course {
+.main-course h1 {
     margin-top: 80px;
+    color: goldenrod;
     
 } 
 
@@ -170,6 +171,10 @@ nav .fa-solid {
 .course-box {
     padding: 20px;
     margin-top: 5px;
+}
+
+.course-box p {
+    color: goldenrod;
 }
 
 .course .box {
