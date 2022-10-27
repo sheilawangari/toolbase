@@ -97,7 +97,7 @@ nav .fa-solid {
 .main {
     position: relative;
     padding: 20px;
-    width: 50%;
+    width: 80%;
 } 
 
 .main-top {
@@ -127,6 +127,8 @@ nav .fa-solid {
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0, 20px 35px rgb(0, 0, 0, 0.1);
+    padding-right: 20px;
+    
 } 
 
 .main-metrics .card h3 {
@@ -154,4 +156,5 @@ nav .fa-solid {
 .main-metrics .card i {
     font-size: 22px;
     padding: 10px;
-}
+} 
+
