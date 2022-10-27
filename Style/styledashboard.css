@@ -150,11 +150,53 @@ nav .fa-solid {
 } 
 
 .main-metrics .card button:hover {
-    background:rgb(36, 36, 56) ;
+    background:rgb(36, 36, 56);
 } 
 
 .main-metrics .card i {
     font-size: 22px;
     padding: 10px;
 } 
+
+.main-course {
+    margin-top: 80px;
+    
+} 
+
+.course {
+    display: flex;
+}
+
+.course-box {
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.course .box {
+    width: 30%;
+    margin: 10px;
+    background: rgb(78, 72, 72);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+} 
+
+.box p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: goldenrod;
+} 
+
+.box button {
+    background: rgb(107, 41, 107);
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin-top: 4rem;
+    cursor: pointer;
+} 
+
+.box button:hover {
+    background: rgb(36, 36, 56);
+}
+
 
