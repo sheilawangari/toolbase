@@ -1,14 +1,39 @@
-function search() {
-    var text = document.getElementById('search').value;
-    const tr = document.getElementsByTagName('tr');
-    for (let i = 1; i < tr.length; i++) {
-        if (!tr[i].children[1].children[1].innerHTML.toLowerCase().includes(
-            text.toLowerCase()
-        )) {
-            tr[i].style.display = 'none';
+function performSearch() {
+
+    // Declare search string 
+    var filter = searchBox.value.toUpperCase();
+  
+    // Loop through first tbody's rows
+    for (var rowI = 0; rowI < trs.length; rowI++) {
+  
+      // define the row's cells
+      var tds = trs[rowI].getElementsByTagName("td");
+  
+      // hide the row
+      trs[rowI].style.display = "none";
+  
+      // loop through row cells
+      for (var cellI = 0; cellI < tds.length; cellI++) {
+  
+        // if there's a match
+        if (tds[cellI].innerHTML.toUpperCase().indexOf(filter) > -1) {
+  
+          // show the row
+          trs[rowI].style.display = "";
+  
+          // skip to the next row
+          continue;
+  
         }
-        else {
-            tr[i].style.display = '';
-        }
+      }
     }
-}
+  
+  }
+  
+  // declare elements
+  const searchBox = document.getElementById('exampleDataList2');
+  const table = document.getElementById("contributors");
+  const trs = table.tBodies[0].getElementsByTagName("tr");
+  
+  // add event listener to search box
+  searchBox.addEventListener('keyup', performSearch);
