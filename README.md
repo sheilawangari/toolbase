@@ -2,11 +2,15 @@
 
 Toolbase is a web app for Toolhub records management, whereby users get to keep record of the tools they improve daily by contributing data. 
 
-This web app was built by HTML, CSS and abit of Javascript 
+This is a responsive web application.
 
-Font-awesome package was used for this project. Below is the link.
+This web app was built by Bootstrap framework, some HTML, CSS and abit of Javascript 
 
-https://kit.fontawesome.com/2bf6ea715c.js 
+I used vanilla Javascript because I was most confident about using it and also that it was a requirement at this stage
+
+https://getbootstrap.com/ 
+
+This repository can be cloned from my github account and stored locally in the PC for view 
 
 There are three parts of this project
 * The Homepage
